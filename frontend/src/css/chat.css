@@ -1,0 +1,29 @@
+.chat {
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: normal;
+  max-width: 450px;
+	margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 4px;
+  line-height: 24px;
+  position:relative;
+	padding:10px 20px;
+  border-radius:25px;
+}
+
+.from-me {
+	color:white; 
+	background:#0B93F6;
+	align-self: flex-end;
+}
+.from-them {
+	background:#E5E5EA;
+	color:black;
+}

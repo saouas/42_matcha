@@ -1,0 +1,176 @@
+.avatar img {
+    border-radius: 100%;
+    width: 95%;
+    padding: 8px;
+}
+
+.avatar .pp {
+    position: relative;
+}
+
+.avatar .upload {
+    text-align: center;
+}
+
+.profile div, h2{
+    color: #707070;
+}
+
+.fullname {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fullname img {
+    width: 35px;
+    padding-left: 10px;
+    vertical-align: -2px;
+}
+
+.last_seen {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.basic_info_container {
+    margin-top: 15px;
+}
+
+.popularity_score {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.popularity_score img {
+    vertical-align: -3px;
+    margin-right: 2px;
+} 
+
+.sexual_orientation {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.localisation {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.biography {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.interests span {
+    background-color: #707070;
+    color: white;
+    padding: 5px 14px 5px 14px;
+    font-size: 19px;
+    border-radius: 15px;
+    margin: 5px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    display: inline-block;
+}
+
+.interests.removable span {
+    cursor: pointer;
+}
+
+.interests.popular span {
+    cursor: pointer;
+    background-color: #ffc400
+}
+
+.interests {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.historic img {
+    border-radius: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.historic {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.showcase img {
+    width: 100%;
+}
+
+.online_mark {
+    width: 20%;
+    height: 20%;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    right: 15%;
+    top: 75%;
+}
+
+.isUserLikeYou {
+    float: right;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.isUserLikeYou img {
+    vertical-align: -4px;
+    padding-left: 4px;
+}
+
+.isUserLikeYou img.dislike {
+    vertical-align: -7px;
+}
+
+.right {
+    position: relative;
+}
+
+.actions {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.actions img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.localisation.update {
+    color: rgb(56, 195, 234);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.interestIcon {
+    width: 25px;
+    height: 25px;
+    vertical-align: -3px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 959px) {
+    .isUserLikeYou {
+        float: none;
+    }
+}

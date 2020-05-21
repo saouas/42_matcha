@@ -1,0 +1,41 @@
+{
+	"name": "node_app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "babel-watch app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"debug": "^4.1.1",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"multer": "^1.4.2",
+		"neo4j-driver": "^1.7.5",
+		"node-cron": "^2.0.3",
+		"nodemailer": "^6.3.0",
+		"nodemon": "^1.19.1",
+		"parse-neo4j": "^0.6.11",
+		"path": "^0.12.7",
+		"promise": "^8.0.3",
+		"rootdir": "^1.0.6",
+		"socket.io": "^2.2.0",
+		"uuid": "^3.3.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/node": "^7.5.5",
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"@babel/polyfill": "^7.4.4",
+		"@babel/preset-env": "^7.5.5",
+		"babel-watch": "^7.0.0",
+		"core-js": "^3.1.4",
+		"regenerator-runtime": "^0.13.3"
+	}
+}
