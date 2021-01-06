@@ -7,7 +7,7 @@
     "@material-ui/icons": "^4.2.1",
     "@material-ui/styles": "^4.2.1",
     "autosuggest-highlight": "^3.1.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "browser-image-manipulation": "^0.2.1",
     "material-ui-chip-input": "^1.0.0",
     "prop-types": "^15.7.2",
